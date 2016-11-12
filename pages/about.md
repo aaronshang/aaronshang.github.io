@@ -1,31 +1,26 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 坚持才能更好。越努力越幸运。
+keywords: SK
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
+我是尚凯，一个移动开发者。主要涉及iOS、Android、前端等相关领域。
 
 ## 坚信
 
 * 熟能生巧
 * 努力改变人生
+* 越努力越幸运
+* 努力学习、快速学习，不断变好
 
 ## 联系
 
-* GitHub：[@mzlogin](https://github.com/mzlogin)
-* 掘金：[@mzlogin](http://gold.xitu.io/user/570ddaeb2e958a005c63b2da)
-* LinkedIn：[@mazhuang](https://www.linkedin.com/in/mazhuang)
-* 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@mzlogin](http://weibo.com/mzlogin)
-* 知乎: [@mzlogin](http://www.zhihu.com/people/mzlogin)
-* 豆瓣: [@壮哥不胖](http://www.douban.com/people/freedim)
+* GitHub：[@aaronshang](http://www.douban.com/people/freedim)
+* Email: aaron.shang@qq.com
 
 ## Skill Keywords
 

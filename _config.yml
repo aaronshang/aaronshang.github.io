@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: 
 date_format: "ordinal"
-title: SK
-subtitle: "且行且努力"
+title: 青青草原
+subtitle: "充满勇气与力量，前行！前行！！"
 description: "尚凯的个人博客"
 keywords: SK, Kai.shang
 favicon: /favicon.ico
@@ -82,12 +82,12 @@ repository: mzlogin/mzlogin.github.io
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: aaronshang
+douban_username: aaronshang
+facebook_username: aaronshang
+weibo_username: aaronshang
+zhihu_username: aaronshang
+twitter_username: aaronshang
 
 # ---------------- #
 #      Comments    #
@@ -96,8 +96,8 @@ twitter_username: mzlogin
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: SK
+disqus_username: SK
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
@@ -111,5 +111,5 @@ google:
 #      Datas       #
 # ---------------- #
 skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
+skill_mobile_app_keywords: [iOS, Android, Reverse Engineering]
 skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
