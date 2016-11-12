@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-我是尚凯，一个移动开发者。主要涉及iOS、Android、前端等相关领域。
+我是尚凯，从事移动开发相关工作。涉及iOS、Android、前端等相关领域。
 
 ## 坚信
 
