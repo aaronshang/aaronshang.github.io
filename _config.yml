@@ -4,7 +4,7 @@
 baseurl:
 url: 
 date_format: "ordinal"
-title:  SK的技术博客
+title:  尚凯的博客
 subtitle: "充满勇气与力量，前行！前行！！"
 description: "尚凯的个人博客"
 keywords: SK, Kai.shang
@@ -77,7 +77,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: aaronshang/aaronshang.github.io
 
 # ---------------- #
 #      Socials     #
@@ -91,6 +91,7 @@ twitter_username: aaronshang
 
 # ---------------- #
 #      Comments    #
+
 # ---------------- #
 # support provider: disqus, duoshuo
 comments_provider: disqus
