@@ -7,7 +7,7 @@ date_format: "ordinal"
 title:  尚凯的博客
 subtitle: "充满勇气与力量，前行！前行！！"
 description: "尚凯的个人博客"
-keywords: SK, Kai.shang
+keywords: SK, Shang Kai, kai.shang
 favicon: /favicon.ico
 timezone: Asia/Zhuhai
 encoding: "utf-8"
@@ -16,8 +16,8 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: DL Inc.
+author: kai.shang
+organization: DingLi Inc.
 organization_url: 
 location: Zhuhai, China
 email: aaron.shang@qq.com
@@ -36,11 +36,11 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: 他山之石
 
   -
     href: /links/
-    label: 链接
+    label: 专家链接
 
   -
     href: /about/
@@ -113,4 +113,3 @@ google:
 # ---------------- #
 skill_software_keywords: [Java, C++, Python, Design Patterns]
 skill_mobile_app_keywords: [iOS, Android, Reverse Engineering]
-skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
