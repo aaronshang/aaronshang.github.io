@@ -97,10 +97,10 @@ twitter_username: aaronshang
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: skwaityou
+# duoshuo_username: skwaityou
 disqus_username: skwaityou
 # 在使用 disqus 的时候可点击显示多说评论框
-lazy_load_duoshuo: true
+# lazy_load_duoshuo: true
 
 # ---------------- #
 #    Analytics     #
