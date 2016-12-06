@@ -19,7 +19,7 @@ permalink: /about/
 
 ## 联系
 
-* GitHub：[@aaronshang](http://www.douban.com/people/freedim)
+* GitHub：[aaronshang](https://github.com/aaronshang)
 * Email: aaron.shang@qq.com
 
 ## Skill Keywords
