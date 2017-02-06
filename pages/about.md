@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-我是尚凯，移动开发者。涉及iOS/Android/Symbian开发
+我是二东，iOS开发者|Andriod开发者。
 
 ## 坚信
 
