@@ -7,9 +7,9 @@ date_format: "ordinal"
 title:  二东的个人博客
 subtitle: "所谓自由，不是随心所欲，而是自我主宰。"
 description: "二东的个人博客"
-keywords: SK, Shang Kai, kai.shang
+keywords: SK,  kai.shang
 favicon: /favicon.ico
-timezone: Asia/Zhuhai
+timezone: 亚洲/珠海
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
