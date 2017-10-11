@@ -20,6 +20,9 @@ permalink: /links/
 | [田伟宇](http://casatwy.com) -架构          | [念茜的](http://nianxi.net) -安全攻防 | [sunny](http://blog.sunnyxx.com) -runtime | [码志](http://mazhuang.org)               |
 | [王乐珩](http://wangleheng.com)           |                                |                                          |                                         |
 
+**C++**
+
+**Android**
 
 
 
