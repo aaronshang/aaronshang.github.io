@@ -4,9 +4,9 @@
 baseurl:
 url: 
 date_format: "ordinal"
-title:  二东的博客
-subtitle: "中国梦"
-description: "二东的博客"
+title:  小狮子的博客
+subtitle: "Hello"
+description: "小狮子的博客"
 keywords: SK,  kai.shang
 favicon: /favicon.ico
 timezone: 亚洲/珠海
@@ -17,9 +17,9 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: kai.shang
-organization: Unibests Inc.
+organization: SK Inc.
 organization_url: 
-location: Zhuhai, China
+location: 珠海, 中国
 email: aaron.shang@qq.com
 
 # ---------------- #
