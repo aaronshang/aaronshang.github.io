@@ -8,7 +8,11 @@ menu: 关于
 permalink: /about/
 ---
 
-二东，移动开发工程师。涉及Symbian/iOS/Android相关开发工作。目前主要做C++跨平台相关业务。
+软件开发工程师。  
+
+曾涉及Symbian/iOS/Android相关开发工作。  
+
+目前主要做C++跨平台相关业务。
 
 ## 坚信
 
