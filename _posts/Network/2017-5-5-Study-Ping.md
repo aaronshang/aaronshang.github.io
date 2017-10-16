@@ -10,4 +10,4 @@ keywords: 网络
 
 Ping相关知识。
 
-![this is my header picture] (images/personal/header.png)
+![header] (http://shangkai007.top/images/personal/header.png)
