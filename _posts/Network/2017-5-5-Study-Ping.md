@@ -8,4 +8,6 @@ keywords: 网络
 
 
 
-介绍Ping相关知识。
+Ping相关知识。
+
+![this is my header picture] (/images/personal/header.png)
