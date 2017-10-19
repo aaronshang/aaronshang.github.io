@@ -160,4 +160,3 @@ BOOL CloseHandle(
     HANDLE hObject; //handle to object to close
 );
 ```
-
