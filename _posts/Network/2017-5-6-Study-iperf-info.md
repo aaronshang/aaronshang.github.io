@@ -11,6 +11,10 @@ keywords: 网络
 名词解释
 
 > 一个网络性能测试工具。可以测试最大TCP和UDP带宽性能，具有多种参数和UDP特性，可根据需要调整，可以报告带宽、延迟抖动和数据包丢失。
+>
+> [官网](https://iperf.fr)
+>
+> [2&&3区别](https://iperf.fr/iperf-doc.php#3change)
 
 参数解释
 
@@ -25,6 +29,8 @@ keywords: 网络
 | -d, --dualtest |                 | 运行双测试模式       |
 | -r, --tradeoff |                 | 往复测试模式        |
 | -t, --time     |                 | 设置传输的总时间      |
+
+[详细链接](http://man.linuxde.net/iperf)
 
 实例，UDP测试
 
