@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IPerf
+title: iPerf
 categories: [网络技术]
 description: 
 keywords: 网络
@@ -12,9 +12,10 @@ keywords: 网络
 
 > 一个网络性能测试工具。可以测试最大TCP和UDP带宽性能，具有多种参数和UDP特性，可根据需要调整，可以报告带宽、延迟抖动和数据包丢失。
 >
-> [官网](https://iperf.fr)
+> `iPerf3`与`iPerf2` 是相互独立的，前者包含后者部分代码。前者是ESnet/Lawerence Berkeley National Laboratory开发基于BSD许可。后者是NLANR/DAST开发。
 >
-> [2&&3区别](https://iperf.fr/iperf-doc.php#3change)
+> [官网](https://iperf.fr) 
+>
 
 参数解释
 
@@ -40,14 +41,27 @@ keywords: 网络
 >
 > 其中-b表示带宽
 
-功能（UDP）
-
-> 1. 测量丢包
-> 2. 测量延迟
-> 3. 测量多播
-
-IPerf2的区别
+iPerf2的区别
 
 1. 不支持同时双向（-d, --dualtest），轮流单向（-r, --tradeoff）
 2. -T(--ttl)
-3. ​
+
+### iPerf特性
+
+1. TCP and SCTP：可测量带宽，报告MSS/MTU大小，通过套接字缓冲区支持窗口大小。
+2. UDP：客户端可创建UDP流，测量丢包，测量抖动。
+3. 跨平台
+4. 客户端和服务器可同时有多个连接
+5. 服务器处理多个连接，而不是一定等到一次测试后结束
+6. 可运行指定的时间
+7. 打印周期，中间带宽，抖动，丢包在指定的间隔下
+8. 运行服务器作为一个守护进程
+9. 服务器接收单个客户端（iPerf3），多个客户端同时（iPef2）
+10. *新* ：忽视TCP慢启动
+11. *新*：为TCP和UDP设置带宽 
+12. *新*： 使用SCTP而不是TCP
+13. *新*： 输出JSON格式
+
+### iPerf3用途
+
+ESNet开发iPerf3的主要兴趣是测试高性能研究、教育、网络。但缺乏iPerf2的一些特点，比如`multicast tests`、`bidirectional tests`、`multi-threading`、`official windows support`。
