@@ -24,5 +24,110 @@ keywords: 设计模式
 
 Java代码示例
 
+```java
+public abstract class AbstractLogger {
+
+	public static int INFO = 1;
+	public static int DEBUG = 2;
+	public static int ERROR = 3;
+	
+	protected int level;
+	protected AbstractLogger nextLogger;
+	
+	public void setNextLogger(AbstractLogger nextLogger){
+		this.nextLogger = nextLogger;
+	}
+	
+	public void logMessage(int level, String message){
+		if(this.level <= level){
+			write(message);
+		}
+		if(nextLogger != null){
+			nextLogger.logMessage(level, message);
+		}
+	}
+	
+	abstract protected void write(String message);
+}
+```
+
+```java
+public class ConsoleLogger extends AbstractLogger {
+
+	public ConsoleLogger(int level){
+		this.level = level;
+	}
+	@Override
+	protected void write(String message) {
+		// TODO Auto-generated method stub
+		System.out.println("Standard Console::Logger:"+message);
+	}
+
+}
+```
+
+```java
+public class ErrorLogger extends AbstractLogger {
+
+	public ErrorLogger(int level){
+		this.level = level;
+	}
+	@Override
+	protected void write(String message) {
+		// TODO Auto-generated method stub
+		System.out.println("Error Console::Logger:: "+message);
+	}
+
+}
+```
+
+```java
+public class FileLogger extends AbstractLogger {
+
+	public FileLogger(int level){
+		this.level = level;
+	}
+	@Override
+	protected void write(String message) {
+		// TODO Auto-generated method stub
+		System.out.println("File::Logger: "+message);
+	}
+
+}
+```
+
+```java
+public class ChainPatternDemo {
+	
+	private static AbstractLogger getChainOfLoggers(){
+		AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
+		AbstractLogger fileLogger = new FileLogger(AbstractLogger.DEBUG);
+		AbstractLogger consoleLogger = new ConsoleLogger(AbstractLogger.INFO);
+		errorLogger.setNextLogger(fileLogger);
+		fileLogger.setNextLogger(consoleLogger);
+		return errorLogger;
+	}
+	
+	public static void main(String[] args){
+		
+		System.out.println("ChainPatternDemo");
+		AbstractLogger logChain = getChainOfLoggers();
+		logChain.logMessage(AbstractLogger.INFO,  "Info");
+		logChain.logMessage(AbstractLogger.DEBUG, "Debug");
+		logChain.logMessage(AbstractLogger.ERROR, "Error");
+	}
+}
+```
+
+```java
+ChainPatternDemo
+Standard Console::Logger:Info
+File::Logger: Debug
+Standard Console::Logger:Debug
+Error Console::Logger:: Error
+File::Logger: Error
+Standard Console::Logger:Error
+```
+
 
 
