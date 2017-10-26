@@ -39,12 +39,6 @@ keywords: 网络
 >
 > 客户端执行：./iperf -u -c 10.255.255.251 -b 900M -i 1 -w 1M -t 60
 >
-> 其中-b表示带宽
-
-iPerf2的区别
-
-1. 不支持同时双向（-d, --dualtest），轮流单向（-r, --tradeoff）
-2. -T(--ttl)
 
 ### iPerf特性
 
