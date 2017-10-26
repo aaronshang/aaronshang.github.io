@@ -19,18 +19,6 @@ keywords: 网络
 
 参数解释
 
-| 命令行选项          | 环境变量选项          | 描述            |
-| -------------- | --------------- | ------------- |
-| -f, format     | $IPERF_FORMAT   | 格式化带宽输出       |
-| -i, --interval | $IPERF_INTERVAL | 设置每次报告之间的时间间隔 |
-| -p, --port     |                 | 设置端口          |
-| -u, --udp      |                 | 使用UDP而非TCP    |
-| -c, --client   |                 |               |
-| -s, --server   |                 |               |
-| -d, --dualtest |                 | 运行双测试模式       |
-| -r, --tradeoff |                 | 往复测试模式        |
-| -t, --time     |                 | 设置传输的总时间      |
-
 [详细链接](http://man.linuxde.net/iperf)
 
 实例，UDP测试
@@ -38,7 +26,8 @@ keywords: 网络
 > 服务器执行：./iperf -u -s
 >
 > 客户端执行：./iperf -u -c 10.255.255.251 -b 900M -i 1 -w 1M -t 60
->
+
+![](http://shangkai007.top/images/network/iperf-dual-client.png)
 
 ### iPerf特性
 
