@@ -47,3 +47,16 @@ Lib功能
 5. Speaker，说着线程的监控线程
 6. Server，实现听者进程
 7. Client，实现说着进程
+
+### 编译
+
+#### Win之Cygwin编译 
+
+[参考地址](http://blog.csdn.net/cupidove/article/details/64920186)
+
+> Cygwin是一个在Windows平台上运行的类UNIX模拟环境。适合一直UNIX的应用到Windows，或用GNU工具集在Windows进行嵌入式系统开发。主要有RedHat及其下属社区负责维护。
+
+
+
+
+
