@@ -16,7 +16,7 @@ keywords: 网络
 >
 > [iPerf2 win工程](http://download.csdn.net/download/yangwu070710/8215865)
 >
-> [code分析参考](https://my.oschina.net/kiterunner24/blog?catalog=502549)
+> [code分析参考](http://blog.chinaunix.net/uid-11568125-id-2868801.html)
 
 ### 主要版本
 
