@@ -20,11 +20,13 @@ keywords: 设计模式
 
 > 第一，系统有一个处理者对象组成的链。第二，当多于一个处理者对象会处理一个请求，而事先并不知道到底有哪个处理者对象处理一个请求。第三，当系统想发出一个请求给多个处理者对象中的某一个，但是不明显指定。第四，当处理一个请求的处理者对象集合需要动态的指定时。
 
-#### 角色组成![](http://shangkai007.top/images/design-pattern/dp-chain-of-responsibility-compent.png)
+#### 角色组成
+
+[责任链模式组成]()
 
 UML示例
 
-![](http://shangkai007.top/images/design-pattern/dp-chain-uml.png)
+[责任链模式UML](http://shangkai007.top/images/design-pattern/dp-chain-uml.png)
 
 ### 命令模式
 
@@ -36,9 +38,16 @@ UML示例
 
 UML示例
 
+[命令模式UML](http://shangkai007.top/images/design-pattern/dp-command-uml.png)
+
+### 解释器模式
+
+> 提供了评估语言的语法或表达式的方式。属于行为型模式。这种模式被用在SQL解析、符号处理引擎等。这种模式实现了一个表达式接口，该接口解释一个特定的上下文。
+
+### 迭代器模式
+
+> Java和.net常用的设计模式。用于顺序访问集合对象的元素，不需要知道集合对象的底层表示。属于行为型模式。
 
 
-![](http://shangkai007.top/images/design-pattern/dp-command-uml.png)
-
-
+> 提供一种方法顺序访问一个聚合对象中各个元素，而又无须暴露该对象的内部表示。
 
