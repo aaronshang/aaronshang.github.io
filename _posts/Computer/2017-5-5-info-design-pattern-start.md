@@ -6,9 +6,71 @@ description:
 keywords: 设计模式
 ---
 
-### 总序
+### 简介
 
-> 设计模式有接口型模式、责任链模式、构造型模式、操作型模式、扩展型模式。
+> 设计莫模式代表了最佳的实践。为了重用代码、让代码更容易被理解、保证代码可靠性。
+>
+> 设计模式主要有三大类，创建型模式、结构型模式、行为型模式。
+>
+> 设计原则：
+>
+> 1. 对接口编程而不是对实现编程
+> 2. 优先使用对象组合而不是继承
+
+### 综述
+
+创建型模式：
+
+> 创建对象同时隐藏创建逻辑的方式。
+
+1. 工厂模式（Factory Pattern）
+2. 抽象工厂模式（Abstract Factory Pattern）
+3. 单例模式（Singleton Pattern）
+4. 建造者模式（builder Pattern）
+5. 原型模式（Prototype Pattern）
+
+结构型模式：
+
+> 关注类和对象的组合。
+
+1. 适配器模式（Adapter Pattern）
+2. 桥接模式（Bridge Pattern）
+3. 过滤器模式（Filter、Criteria Pattern）
+4. 组合模式（Composite Pattern）
+5. 装饰器模式（Decorator Pattern）
+6. 外观模式（Facade Pattern）
+7. 享元模式（Flyweight Pattern）
+8. 代理模式（Proxy Pattern）
+
+行为型模式：
+
+> 特别关注对象之间的通信。
+
+1. 责任链模式（Chain of Responsibility Pattern）
+2. 命令模式（Command Pattern）
+3. 解释器模式（Interpreter Pattern）
+4. 迭代器模式（Iterator Pattern）
+5. 中介者模式（Mediator Pattern）
+6. 备忘录模式（Memento Pattern）
+7. 观察者模式（Observer Pattern）
+8. 状态模式（State Pattern）
+9. 空对象模式（Null Object Pattern）
+10. 策略模式（Strategy Pattern）
+11. 模板模式（Template Pattern）
+12. 访问者模式（Visitor Pattern）
+
+J2EE模式
+
+> 特别关注表示层。
+
+1. MVC模式
+2. 业务代表模式
+3. 组合实体模式
+4. 数据访问对象模式
+5. 前端控制器模式
+6. 拦截过滤器模式
+7. 服务定位器模式
+8. 传输对象模式
 
 ### 责任链模式
 
@@ -47,6 +109,7 @@ UML示例
 ### 迭代器模式
 
 > Java和.net常用的设计模式。用于顺序访问集合对象的元素，不需要知道集合对象的底层表示。属于行为型模式。
+
 
 
 > 提供一种方法顺序访问一个聚合对象中各个元素，而又无须暴露该对象的内部表示。
