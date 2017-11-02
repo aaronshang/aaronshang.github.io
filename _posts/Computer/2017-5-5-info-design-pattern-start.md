@@ -16,6 +16,8 @@ keywords: 设计模式
 >
 > 1. 对接口编程而不是对实现编程
 > 2. 优先使用对象组合而不是继承
+>
+> [参考网址](http://www.runoob.com/design-pattern/design-pattern-intro.html)
 
 ### 综述
 
