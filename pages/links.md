@@ -8,8 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> 世界很大，牛人很多。见贤思齐。
-
+> 世界很大，见贤思齐。
 
 
 **iOS**
@@ -27,10 +26,9 @@ permalink: /links/
 **Nodejs**
 
 | [nodejs](https://www.cnblogs.com/wfsovereign/p/5065253.html) | [粉丝日志](http://blog.fens.me/) |      |      |
-| ---------------------------------------- | ---------------------------- | ---- | ---- |
-|                                          |                              |      |      |
 
 **前端**
-|[腾讯AlloyTeam全端](http://www.alloyteam.com/)|	
+
+|[腾讯AlloyTeam全端](http://www.alloyteam.com/)|
 
 
