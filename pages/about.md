@@ -10,11 +10,10 @@ permalink: /about/
 
 ## 职业
 
-软件开发。
+工程师
 
 ## 联系
 
-* GitHub：[aaronshang](https://github.com/aaronshang)
 * Email: aaron.shang@qq.com
 
 ## Skill Keywords
