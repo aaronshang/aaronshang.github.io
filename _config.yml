@@ -4,12 +4,12 @@
 baseurl:
 url: 
 date_format: "ordinal"
-title:  小狮子的博客
-subtitle: "Hello"
-description: "小狮子的博客"
-keywords: SK,  kai.shang
+title:  小狮子读书
+subtitle: "静水流深，好好学习，天天向上"
+description: "小狮子读书"
+keywords: SK, kai.shang
 favicon: /favicon.ico
-timezone: 亚洲/珠海
+timezone: 亚洲/北京
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -19,7 +19,7 @@ side_bar_repo_limit: 5
 author: kai.shang
 organization: 彩煜
 organization_url: 
-location: 珠海, 中国
+location: 广东, 中国
 email: aaron.shang@qq.com
 
 # ---------------- #
@@ -85,9 +85,6 @@ repository: aaronshang/aaronshang.github.io
 github_username: aaronshang
 douban_username: aaronshang
 facebook_username: aaronshang
-weibo_username: aaronshang
-zhihu_username: aaronshang
-twitter_username: aaronshang
 
 # ---------------- #
 #      Comments    #
